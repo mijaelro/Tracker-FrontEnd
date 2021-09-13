@@ -1,0 +1,26 @@
+.ExpenseFilter {
+  color: white;
+  padding: 0 1rem;
+  text-align: center;
+  display:inline-block;
+}
+  
+.ExpenseFilterControl {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+  
+.ExpenseFilter label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+  
+.ExpenseFilter select {
+  font: inherit;
+  padding: 0.5rem 3rem;
+  font-weight: bold;
+  border-radius: 6px;
+}

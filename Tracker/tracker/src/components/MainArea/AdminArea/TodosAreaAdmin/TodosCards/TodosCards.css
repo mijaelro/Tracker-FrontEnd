@@ -1,0 +1,30 @@
+.TodosCards{
+
+}
+
+.TodosCards table {
+  margin: auto;
+  border-collapse: collapse;
+  width:100%;
+}
+
+.TodosCards table,th,td {
+  border: 1px solid black;
+}
+
+.TodosCards tr:nth-child(even) {
+  background-color: white;
+}
+
+.TodosCards tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.TodosCards th {
+  background-color: #8d7906;
+  color: white;
+}
+  
+.TodosCards td {
+  color: black;
+}

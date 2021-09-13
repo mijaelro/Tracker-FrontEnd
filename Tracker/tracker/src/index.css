@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+#price{
+  font-weight: bold;
+  color: rgb(126, 93, 5);
+}
+
+#dark1{
+  color: #000000;
+}
+
+#numOfItems{
+  color:#b59040;
+}
+
+#niceTitle{
+  text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+  color: #242424;
+  font-weight: bold;
+  cursor:default;
+  font-size:3rem;
+  text-align: center;
+}
+
+#niceTitle2{
+  text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+  color: #e8e7ee;
+  font-weight: bold;
+  cursor:default;
+  font-size:3rem;
+  text-align: center;
+}
+
+#niceTitle3{
+  color: #FFFFFF;
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+font-weight: bold;
+font-size:2rem;
+text-align: center;
+}
+
+#niceTitle4{
+  color: #beb9b9;
+  font-weight: bold;
+  text-shadow: #050505 4px 4px 0;
+}
+
+#errors{
+  color:rgb(252, 0, 0);
+  font-weight: bold;
+  background-color: rgb(43, 3, 3);
+}
+
+#customDate{
+  font-size:1rem;
+  width: 6rem;
+  height:auto;
+  padding: 2px;
+  display: inline-block;
+  border: 1px solid #7e7c7c;
+  background-color: #2eb9ce;
+  font-weight: bold;
+  color: rgb(129, 53, 2);  border-radius: 12px;
+  text-align: center;
+}
+
+#customId{
+  color:rgb(128, 109, 4);
+  font-weight: bold;
+}
+
+#customDate2{
+  font-weight: bold;
+  font-size:1rem;
+  padding:10px;
+  margin: 10px auto;
+  width: 9rem;
+  height: 2.5rem;
+  border: 5px solid #777676;
+  background-color: #181955;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+}
+
+#pd{
+  color: rgb(8, 8, 8);
+}
+
+#customMargin{
+  margin:0px;
+  font-size: 1rem;
+}
+
+#customMargin2{
+  display: inline-block;
+  padding: 10px;
+}
+
+#iconBig{
+  font-size: 30px;
+}
+
+#white{
+  color:white;
+}
+
+.shortWidth{
+  display: inline-block;
+  width: 400px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.customCard2{
+  border-radius: 30px;
+  background: #8B8B8B;
+  background: -moz-linear-gradient(top, #8B8B8B 0%, #000000 0%, #FFFFFF 100%);
+  background: -webkit-linear-gradient(top, #8B8B8B 0%, #000000 0%, #FFFFFF 100%);
+  background: linear-gradient(to bottom, #8B8B8B 0%, #000000 0%, #FFFFFF 100%);
+}
+
+.customCard{
+  border-width:24px;
+  border-style:ridge;
+  border-color:#2eb9ce; 
+   color: rgb(66, 65, 65);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 10px 9px 8px 6px rgba(0,0,0,0.71); 
+  box-shadow: 0px 10px 13px -7px #000000, 10px 9px 8px 6px rgba(0,0,0,0.71);
+  background: #0E0A69;
+  background: -moz-linear-gradient(45deg, #040138 0%, #1C6EA4 50%, #83C5C1 100%);
+  background: -webkit-linear-gradient(45deg, #030036 0%, #1C6EA4 50%, #83C5C1 100%);
+  background: linear-gradient(45deg, #0E0A69 0%, #1C6EA4 50%, #83C5C1 100%);
+}
+
+.customCard4{
+  border-width:24px;
+  border-style:ridge;
+  border-color:#2eb9ce; 
+  border-radius:50px ;
+   color: rgb(66, 65, 65);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 10px 9px 8px 6px rgba(0,0,0,0.71); 
+  box-shadow: 0px 10px 13px -7px #000000, 10px 9px 8px 6px rgba(0,0,0,0.71);
+  background: #0E0A69;
+  background: -moz-linear-gradient(45deg, #040138 0%, #1C6EA4 50%, #288b85 100%);
+  background: -webkit-linear-gradient(45deg, #030036 0%, #1C6EA4 50%, #15837b 100%);
+  background: linear-gradient(45deg, #0E0A69 0%, #1C6EA4 50%, #288b85 100%);
+  width: 18rem ;
+  height: auto;
+  margin:30px;
+}
+
+.customCard5{
+  border-width:24px;
+  border-style:ridge;
+  border-color:#0e1430; 
+   color: rgb(66, 65, 65);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 10px 9px 8px 6px rgba(0,0,0,0.71); 
+  box-shadow: 0px 10px 13px -7px #000000, 10px 9px 8px 6px rgba(0,0,0,0.71);
+  background: #0E0A69;
+  background: -moz-linear-gradient(45deg, #040138 0%, #1C6EA4 50%, #83C5C1 100%);
+  background: -webkit-linear-gradient(45deg, #030036 0%, #1C6EA4 50%, #83C5C1 100%);
+  background: linear-gradient(45deg, #0E0A69 0%, #1C6EA4 50%, #83C5C1 100%);
+}
+
+.inlineButtons{
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.inlineButtonsChild1{
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+.inlineButtonsChild2{
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+#darkgrey1{
+  color:rgb(53, 51, 51);
+  font-weight: bold;
+}
+
+#pink{
+  color: #ff00d9bb;
+  font-weight: bold;
+}
+
+#bold{
+  font-weight: bold;
+}
+
+#about{
+  font-size:1.5rem;
+  font-weight: bold;
+}
+
+#haveAny{
+  cursor:pointer;
+}

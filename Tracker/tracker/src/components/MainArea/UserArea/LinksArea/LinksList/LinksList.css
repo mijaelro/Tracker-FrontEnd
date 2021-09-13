@@ -1,0 +1,29 @@
+.LinksList {	
+}
+
+.LinksList table {
+  margin: auto;
+  border-collapse: collapse;
+  width:100%;
+}
+
+.LinksList table,th,td {
+  border: 1px solid black;
+}
+
+.LinksList tr:nth-child(even) {
+  background-color: white;
+}
+
+.LinksList tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.LinksList th {
+  background-color: #0e212e;
+  color: white;
+}
+  
+.LinksList td {
+  color: black;
+}
